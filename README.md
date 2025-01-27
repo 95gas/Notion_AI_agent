@@ -3,7 +3,10 @@
 
 # Installation
 - Install python (3.9 preferrable)
-- pip install -r requirements.txt
+- Install packages:
+  ```
+  pip install -r requirements.txt
+  ```
 
 # Run
 1. add the foled 'env' in the roort containing a file named 'keys.env' with the following env variables:
