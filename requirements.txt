@@ -1,0 +1,5 @@
+# python 3.9
+llama-index
+llama-index-llms-openai
+notion2md
+python-dotenv
