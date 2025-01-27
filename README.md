@@ -20,3 +20,6 @@
    ```
    python main.py
    ```
+
+# Support
+For adding more supported features, [this](https://developers.notion.com/reference/page) is how a notion page appears in json once fetched.
