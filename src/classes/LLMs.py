@@ -3,6 +3,9 @@ import os
 
 class LLM:
     def __init__(self):
+        """
+        Initialize the llm
+        """
         self.openai_model = os.getenv("OPENAI_MODEL_NAME_CHAT")
         self.openai_key = os.getenv("OPENAI_API_KEY")
         self._openai_llm = None

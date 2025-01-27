@@ -23,7 +23,7 @@ if __name__ == '__main__':
         exit(1)
 
     # Run summary and topic tagging for notion database target
-    database_id = os.getenv("DATABASE_ID_107ELODE")
+    database_id = os.getenv("DATABASE_ID")
 
     logger.info("Starting summary generation...")
     notion_agent.add_summary(database_id)
