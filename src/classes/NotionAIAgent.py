@@ -2,6 +2,7 @@ import requests, json
 import logging
 from notion2md.exporter.block import StringExporter
 from llama_index.core.settings import Settings
+from src.Prompts import DEFAULT_SUMMARY_TEMPLATE, DEFAULT_TAGGING_TEMPLATE
 import os
 
 # Reference api: https://thienqc.notion.site/Notion-API-Python-ca0fd21bc224492b8daaf37eb06289e8
