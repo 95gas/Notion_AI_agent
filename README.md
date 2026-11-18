@@ -16,7 +16,7 @@ For generalizing it to your project, just replaces the name of the dictionary ke
 
 
 # Run
-1. add the foled 'env' in the roort containing a file named 'keys.env' with the following env variables:
+1. add the file 'env' in the root containing a file named 'keys.env' with the following env variables:
    ```
    NOTION_INTEGRATION_TOKEN
    DATABASE_ID
